@@ -13,6 +13,6 @@ jobs:
       with:
         # Deploy vars
         WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }}
-        WPE_ENV: <your_install_name_here>
+        WPE_ENV: selive
         # Deploy Theme Repo to Theme Directory in WPE
         REMOTE_PATH: "wp-content/themes/twentysixteen/"
